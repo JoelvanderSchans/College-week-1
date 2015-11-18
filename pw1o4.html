@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> puzzelweek 1 opgave 4 </title>
+</head>
+<body>
+<!-- javascript code -->
+
+	<script> 
+	var aankoopbedrag;
+	var bezorgkosten;
+
+	aankoopbedrag = prompt("Wat is het aankoopbedrag?", "vul hier het aankoopbedrag in")
+	aankoopbedrag = parseFloat(aankoopbedrag);
+	bezorgkosten = aankoopbedrag + 3.95;
+
+
+	if (aankoopbedrag >= 25.00){
+		alert("Het totaalbedrag is " + aankoopbedrag + " euro. Je bestelling wordt gratis bezorgd!")
+	} else {
+		alert("Het totaalbedrag incl bezorgkosten is " + bezorgkosten )
+	} 
+	
+
+	</script>
+</body>
+</html>
+
